@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>States - SWAAD-SAFAR</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    header {
+      background: #e88f5b;
+      color: white;
+      padding: 18px 12px;
+      text-align: center;
+    }
+
+    header p { font-family: 'Courier New', Courier, monospace; margin-top: 6px; }
+
+    nav {
+      background: #ffe0b2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 20px 0;
+      font-family: fantasy;
+      color: #ff7043;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1100px;
+      margin: 0 auto 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e6e6e6;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-6px) scale(1.01);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin: 8px 0 6px;
+      color: #e65100;
+      font-size: 1.05rem;
+    }
+
+    .card p { margin: 6px 0; font-size: 0.95rem; color: #444; }
+
+    .badge {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: linear-gradient(90deg,#fff,#fff);
+      border: 1px solid rgba(0,0,0,0.06);
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+
+    footer {
+      background: #e88f5b;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SWAAD-SAFAR</h1>
+    <p>Bhookh Lagi hai? Hum Hain Na!</p>
+  </header>
+
+  <nav>
+    <a href="hack.html">Home</a>
+    <a href="hack2.html">States</a>
+    <a href="hack3.html">About</a>
+  </nav>
+
+  <h2>Indian States &amp; Their Specialities</h2>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://www.potsandpans.in/cdn/shop/articles/20240109083636-dal-20baati.jpg?v=1704789673" alt="Dal Baati Churma">
+      <h3>Rajasthan</h3>
+      <p>Dal Baati Churma, Laal Maas</p>
+      <p><strong>Taste:</strong> Rich &amp; Spicy</p>
+      <div class="badge">Traditional</div>
+    </div>
+
+    <div class="card">
+      <img src="https://thumbs.dreamstime.com/b/very-famous-punjabi-cuisine-makki-di-roti-sarson-ka-saag-lunch-dinner-makki-di-roti-sarson-ka-saag-110829653.jpg" alt="Sarson da Saag">
+      <h3>Punjab</h3>
+      <p>Sarson da Saag, Makki di Roti, Butter Chicken</p>
+      <p><strong>Taste:</strong> Buttery &amp; Robust</p>
+      <div class="badge">Hearty</div>
+    </div>
+
+    <div class="card">
+      <img src="https://img.onmanorama.com/content/dam/mm/en/food/kerala-kitchen/images/2019/9/13/meen-curry.jpg/photos/16x9/photo.jpg" alt="Kerala Fish Curry">
+      <h3>Kerala</h3>
+      <p>Fish Curry, Appam, Puttu</p>
+      <p><strong>Taste:</strong> Coconutty &amp; Tangy</p>
+      <div class="badge">Coastal</div>
+    </div>
+
+    <div class="card">
+      <img src="https://imgmedia.lbb.in/media/2019/09/5d80e553fce534554af4e829_1568728403245.jpg" alt="Rosogolla & Fish">
+      <h3>West Bengal</h3>
+      <p>Fish Curry, Mishti Doi, Rosogolla</p>
+      <p><strong>Taste:</strong> Sweet &amp; Delicate</p>
+      <div class="badge">Sweet &amp; Savoury</div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.atlastravel.in/blog/wp-content/uploads/2022/01/Maharashtrian-Dishes.jpg" alt="Maharashtrian dishes">
+      <h3>Maharashtra</h3>
+      <p>Vada Pav, Misal Pav, Puran Poli</p>
+      <p><strong>Taste:</strong> Spicy &amp; Tangy</p>
+      <div class="badge">Street Food</div>
+    </div>
+
+    <div class="card">
+      <img src="https://blog.parrikar.com/wp-content/uploads/2012/06/Goan-Fish.jpg" alt="Goan Fish Curry">
+      <h3>Goa</h3>
+      <p>Goan Fish Curry, Bebinca</p>
+      <p><strong>Taste:</strong> Tangy &amp; Coconutty</p>
+      <div class="badge">Fusion</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.herzindagi.info/image/2023/Oct/angakar-roti-kaise-banayein.jpg" alt="Angakar Roti">
+      <h3>Chhattisgarh</h3>
+      <p>Angakar Roti, Chausela, Rakhia Badi</p>
+      <p><strong>Taste:</strong> Balanced Flavours</p>
+      <div class="badge">Regional</div>
+    </div>
+
+    <div class="card">
+      <img src="https://clubmahindra.gumlet.io/blog/media/section_images/traditiona-795df276e0f7f60.jpg?w=376&dpr=2.6" alt="Gujarati food">
+      <h3>Gujarat</h3>
+      <p>Dhokla, Fafda-Jalebi, Khakra</p>
+      <p><strong>Taste:</strong> Sweet &amp; Namkeen</p>
+      <div class="badge">Snacky</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Khane ki Khoj me.....</p>
+  </footer>
+</body>
+</html>
+
